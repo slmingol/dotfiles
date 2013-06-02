@@ -17,9 +17,6 @@
 	"segments": {
 		"left": [
 			{
-				"name": "hostname"
-			},
-			{
 				"name": "user"
 			},
 			{
@@ -28,7 +25,7 @@
 			{
 				"name": "cwd",
 				"args": {
-					"dir_limit_depth": 3
+					"dir_limit_depth": 2
 				}
 			}
 		],
