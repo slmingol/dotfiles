@@ -1,14 +1,15 @@
 {
 	"default_module": "powerline.segments.common",
 	"segment_data": {
-		"external_ip": {
-			"before": "ⓦ  "
-		},
-		"date": {
-			"before": "⌚ "
-		}
-	},
-	"segments": {
+    "network_load": {
+      "args" : {
+        "si_prefix": true,
+        "recv_format": "↑ {value:>8}",
+        "sent_format": "↓ {value:>8}"
+      }
+    }
+  },
+  "segments": {
 		"right": [
 			{
 				"name": "network_load",
