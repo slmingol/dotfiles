@@ -1,5 +1,6 @@
 " General settings
 set nocompatible
+set term=xterm-256color
 set encoding=utf8
 
 " Filetype
@@ -30,5 +31,3 @@ set mouse=a
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
-
-
