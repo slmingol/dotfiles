@@ -1,8 +1,11 @@
 /*
 !.gitignore
-!.zshrc
-!.bashrc
-!.vimrc
-!.vim
-!.tmux.conf
-!.config/powerline
+!zshrc
+!bashrc
+!vimrc
+!vim
+!tmux.conf
+!config/
+config/*
+!config/powerline
+!installscript.sh
