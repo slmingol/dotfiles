@@ -5,11 +5,6 @@
 # Update everything
 sudo yum update -y
 
-# Install flash player
-sudo yum install http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm -y
-sudo rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
-sudo yum install flash-plugin -y
-
 # Install other useful things
 sudo yum install \
   vim \
