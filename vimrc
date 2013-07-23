@@ -8,6 +8,7 @@ set magic
 set showmatch " Brackets
 set noerrorbells
 set novisualbell
+set mouse=a
 
 filetype plugin on
 filetype indent on
@@ -32,8 +33,8 @@ set nocompatible
 " Indents
 set expandtab
 set smarttab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 set ai " Auto Indent
 set si " Smart Indent
