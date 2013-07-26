@@ -9,6 +9,7 @@ set showmatch " Brackets
 set noerrorbells
 set novisualbell
 set mouse=a
+set number
 
 filetype plugin on
 filetype indent on
