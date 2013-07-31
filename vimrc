@@ -24,6 +24,7 @@ set incsearch
 syntax enable
 set encoding=utf8
 set ffs=unix,mac,dos
+colorscheme distinguished
 
 " Fix some junk
 set nobackup
