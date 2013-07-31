@@ -41,10 +41,6 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git osx brew node npm osx tmux)
-# (tmux) Plugin configuration
-ZSH_TMUX_FIXTERM=true
-ZSH_TMUX_ITERM2=true
-
 
 source $ZSH/oh-my-zsh.sh
 
