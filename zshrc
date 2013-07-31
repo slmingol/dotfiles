@@ -42,9 +42,6 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git osx brew node npm osx tmux)
 # (tmux) Plugin configuration
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOSTART_ONCE=true
-ZSH_TMUX_AUTOCONNECT=true
 ZSH_TMUX_FIXTERM=true
 ZSH_TMUX_ITERM2=true
 
