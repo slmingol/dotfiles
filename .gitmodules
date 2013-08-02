@@ -13,3 +13,6 @@
 [submodule "vim/bundle/vim-literate-coffeescript"]
 	path = vim/bundle/vim-literate-coffeescript
 	url = https://github.com/mintplant/vim-literate-coffeescript.git
+[submodule "vim/bundle/vim-json"]
+	path = vim/bundle/vim-json
+	url = https://github.com/elzr/vim-json.git
